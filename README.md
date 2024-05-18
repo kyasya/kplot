@@ -12,7 +12,7 @@ matplotlibを使った論文作成時に使えそうなシンプルなグラフ�
 
 - Scatter2D (scatter mode)
 
-![kamioka-data-SN1987A](./image/kamioka-SN1987A-demo.png | width=600)
+<img alt="kamioka-data-SN1987A" src="https://github.com/kyasya/kplot/blob/main/image/kamioka-SN1987A-demo.png" width="600">
 
 - From Tab.1 and Fig.3 data of Kamiokande experiment in ref: [K. Hirata, Phys. Rev. Lett. 58, 1490](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.58.1490 )
 
@@ -61,8 +61,7 @@ x = np.random.normal(0, 1, 1000)
 h = kplot.hist('Title;x;Events', 100, -5, 5)
 h.Draw1D(x)
 ```
-
-![Image](./image/demo-hist1D.png | width=500)
+<img alt="Image" src="https://github.com/kyasya/kplot/blob/main/image/demo-hist1D.png" width="600">
 
 ### Separated graph
 
@@ -70,7 +69,7 @@ h.Draw1D(x)
 
 **NOTE**: Filling in the fitting caves requires a graph to be obtained. Fitting functionality will be added in the future.
 
-![Image](./image/demo-sep2graph.png | width=500)
+<img alt="Image" src="https://github.com/kyasya/kplot/blob/main/image/demo-sep2graph.png" width="600">
 
 ### 2D scatter/hist
 
@@ -94,11 +93,11 @@ h.Print('./demo-hist2D.png')
 
 - hist mode (`mode` parameter set to be `'hist'`)
 
-![Image](./image/demo-hist2D-hist.png | width=500)
+<img alt="Image" src="https://github.com/kyasya/kplot/blob/main/image/demo-hist2D-hist.png" width="500">
 
 - scatter mode (`mode` parameter set to be `'scatter'`)
 
-![Image](./image/demo-hist2D-scatter.png | width=500)
+<img alt="Image" src="https://github.com/kyasya/kplot/blob/main/image/demo-hist2D-scatter.png" width="500">
 
 ## License
 
